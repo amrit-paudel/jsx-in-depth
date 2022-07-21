@@ -1,0 +1,45 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.petsContainer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0 0;
+}
+
+.eachpet{
+    
+    width: 40%;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 5px 30px -20px #000000;
+}
+
+.eachpet > img{
+    width:100%;
+    max-width: 600px;
+    
+    margin: 10px 0;
+}
+
+.eachpet > ul{
+    
+    margin: 10px 0;
+    list-style: none;
+}
+
+.eachpet > ul > li{
+    border: soldi blue;
+    text-transform: capitalize;
+}
+
+
+
